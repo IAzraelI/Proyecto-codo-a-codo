@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencia de viajes en Argentina</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Agencia de viajes en Argentina</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destinos.html">Destinos</a></li>
+                <li><a href="paquetes.html">Paquetes</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="destinos">
+            <h2>Destinos populares en Argentina</h2>
+            <ul>
+                <li>Buenos Aires</li>
+                <li>Mendoza</li>
+                <li>Bariloche</li>
+                <li>Salta</li>
+            </ul>
+        </section>
+        <section id="paquetes">
+            <h2>Paquetes turísticos</h2>
+            <ul>
+                <li>Paquete 1</li>
+                <li>Paquete 2</li>
+                <li>Paquete 3</li>
+                <li>Paquete 4</li>
+            </ul>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="enviar.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Derechos reservados &copy; Agencia de viajes en Argentina</p>
+    </footer>
+</body>
+</html>
