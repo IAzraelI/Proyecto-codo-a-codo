@@ -62,3 +62,7 @@ ul {
 form label {
     display: block;
 }
+
+.mosaicos_de_imagenes {
+    display: grid;
+}

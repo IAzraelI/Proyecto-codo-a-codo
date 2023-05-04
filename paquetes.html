@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="iconos/botones.png" type="image/x-icon">
     <title>Agencia de viajes en Argentina</title>
 </head>
 <body>
@@ -14,12 +15,145 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="destinos.html">Destinos</a></li>
-                <li><a href="paquetes.html">Paquetes</a></li>
+                <li>
+                    <a href="paquetes.html">Paquetes</a>
+                    <ul>
+                        <li>
+                            <a href="paquetes_argentina.html">Argentina</a>
+                        </li>
+                        <li>
+                            <a href="paquetes_brasil.html">Brasil</a>
+                        </li>
+                        <li>
+                            <a href="paquetes_chile.html">Chile</a>
+                        </li>
+                        <li>
+                            <a href="paquetes_mexico.html">México</a>
+                        </li>
+                        <li>
+                            <a href="paquetes_japón.html">Japón</a>
+                        </li>
+                        <li>
+                            <a href="paquetes_españa.html">España</a>
+                        </li>
+                    </ul>
+                </li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
-    <section id="contacto">
+    <section>
+        <h1>Encuentrá el paquete de tus sueños</h1>
+    </section>
+    <section id="menu-de-categorias">
+        <ul>
+            <il>
+                <a href="" class="categorias"><img src="iconos_para_categorias/argentina.png" width="65">Argentina</a>
+            </il>
+            <il>
+                <a href="" class="categorias"><img src="iconos_para_categorias/bandera-de-brasil.png" width="65">Brasil</a>
+            </il>
+            <il>
+                <a href="" class="categorias"><img src="iconos_para_categorias/chile.png" width="65">Chile</a>
+            </il>
+            <il>
+                <a href="" class="categorias"><img src="iconos_para_categorias/mexico.png" width="65">México</a>
+            </il>
+            <il>
+                <a href="" class="categorias"><img src="iconos_para_categorias/japon.png" width="65">Japón</a>
+            </il>
+            <il>
+                <a href="" class="categorias"><img src="iconos_para_categorias/espana.png" width="65">España</a>
+            </il>
+        </ul>
+    </section>
+    <section id="mosaicos-de-imagenes">
+        <div><img src="imagenes_para_mosaicos/mendoza.jpg"></div>
+        <div><img src="imagenes_para_mosaicos/cancun.jpg"></div>
+        <div><img src="imagenes_para_mosaicos/tokyo.jpg"></div>
+        <div><img src="imagenes_para_mosaicos/santiago-de-chile.jpg"></div>
+        <div><img src="imagenes_para_mosaicos/rio_de_janeiro.jpg"></div>
+        <div><img src="imagenes_para_mosaicos/barcelona.jpg"></div>
+    </sectionid>
+    <section>
+        <header id="mejores_ofertas">Mejores ofertas</header>
+        <h3>Destinos más buscados</h3>
+        <div class="más_buscados">
+            <div>
+                <div>
+                    <img src="imagenes_para_mosaicos/barcelona.jpg">
+                </div>
+                <div>
+                    <a href=""></a>
+                    <p>VUELO + HOTEL</p>
+                    <p>5 días/4 noches</p>
+                    <p>desde $136.000</p>
+                    <a href="paquetes_">Reservar</a>
+                </div>
+            </div>  
+            <div>
+                <div>
+                    <img src="imagenes_para_mosaicos/cancun.jpg">
+                </div>
+                <div>
+                    <a href=""></a>
+                    <p>VUELO + HOTEL</p>
+                    <p>5 días/4 noches</p>
+                    <p>desde $136.000</p>
+                    <a href="">Reservar</a>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img src="imagenes_para_mosaicos/mendoza.jpg">
+                </div>
+                <div>
+                    <a href=""></a>
+                    <p>VUELO + HOTEL</p>
+                    <p>5 días/4 noches</p>
+                    <p>desde $136.000</p>
+                    <a href="">Reservar</a>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img src="imagenes_para_mosaicos/rio_de_janeiro.jpg">
+                </div>
+                <div>
+                    <a href=""></a>
+                    <p>VUELO + HOTEL</p>
+                    <p>5 días/4 noches</p>
+                    <p>desde $136.000</p>
+                    <a href="">Reservar</a>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img src="imagenes_para_mosaicos/santiago-de-chile.jpg">
+                </div>
+                <div>
+                    <a href=""></a>
+                    <p>VUELO + HOTEL</p>
+                    <p>5 días/4 noches</p>
+                    <p>desde $136.000</p>
+                    <a href="">Reservar</a>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img src="imagenes_para_mosaicos/tokyo.jpg">
+                </div>
+                <div>
+                    <a href=""></a>
+                    <p>VUELO + HOTEL</p>
+                    <p>5 días/4 noches</p>
+                    <p>desde $136.000</p>
+                    <a href="">Reservar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="contacto">
         <h2>Contacto</h2>
         <form action="enviar.php" method="post">
             <label for="nombre">Nombre:</label>
@@ -30,6 +164,6 @@
             <textarea id="mensaje" name="mensaje" required></textarea>
             <input type="submit" value="Enviar">
         </form>
-    </section>
+    <footer>
 </body>
 </html>
