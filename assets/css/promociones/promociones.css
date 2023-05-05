@@ -1,0 +1,37 @@
+/* Css para promociones*/
+
+.promociones{
+    background: #dab997;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+
+.promociones h2 {
+    background: #dab997;
+    font-size: 24px;
+    color: aliceblue;
+    margin: 0;
+    padding: o;
+
+      
+}
+
+@media screen and (min-width: 0){
+    .promociones{
+        padding: 5rem 0 0 1rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .promociones{
+        padding: 5rem 0 0 2.5rem;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .promociones{
+        padding: 5rem 0 0 5rem;
+    }
+}
