@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="shortcut icon" href="../iconos/botones.png" type="image/x-icon">
+    <title>Agencia de viajes en Argentina</title>
+</head>
+<body>
+    <header>
+        <h1>Agencia de viajes en Argentina</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../destinos.html">Destinos</a></li>
+                <li>
+                    <a href="../paquetes.html">Paquetes</a>
+                    <ul>
+                        <li>
+                            <a href="paquetes_argentina.html">Argentina</a>
+                        </li>
+                        <li>
+                            <a href="paquetes_brasil.html">Brasil</a>
+                        </li>
+                        <li>
+                            <a href="paquetes_chile.html">Chile</a>
+                        </li>
+                        <li>
+                            <a href="paquetes_mexico.html">México</a>
+                        </li>
+                        <li>
+                            <a href="paquetes_japón.html">Japón</a>
+                        </li>
+                        <li>
+                            <a href="paquetes_españa.html">España</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <div>
+            <img src="../imagenes_para_mosaicos/santiago-de-chile.jpg">
+        </div>
+        <div>
+            <a href=""></a>
+            <p>VUELO + HOTEL</p>
+            <p>5 días/4 noches</p>
+            <p>desde $136.000</p>
+            <a href="">Reservar</a>
+        </div>
+    </div>
+    <footer id="contacto">
+        <h2>Contacto</h2>
+        <form action="enviar.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+    <footer>
+</body>
+</html>
