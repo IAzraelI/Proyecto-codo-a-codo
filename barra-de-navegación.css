@@ -1,0 +1,47 @@
+.menu-horizontal {
+    list-style: none;
+    display: flex;
+}
+
+.menu-horizontal > li > a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-horizontal > li:hover {
+    background-color: #9f1010;
+}
+
+
+.menu-vertical {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.menu-vertical > li {
+    display: block;
+}
+
+.menu-horizontal > li:hover .menu-vertical {
+    display: block;
+
+}
+
+.menu-vertical > li:hover {
+    background-color: #9f1010;
+
+}
+
+.menu-vertical > li > a {
+    display: block;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}
+
+
+
