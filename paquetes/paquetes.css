@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.titulo-paquetes > h1 {
+    text-align: center;
+}
+
+.menu-de-categorias {
+    text-align: center;
+}
+
+.menu-de-categorias > a {
+    text-decoration: none;
+}
+
+
+
+.mosaicos-de-imagenes {
+    display: flex;
+}
+
+.paquete {
+    margin: 20px 40px;
+    box-shadow: 0 4px 8px 0;
+    float: left;
+    width: 350px;
+}
+
+.imagenes_paquetes {
+    width: 100%;
+    height: auto;
+}
+
+.paquete_contenido {
+    text-align: center;
+}
