@@ -48,7 +48,7 @@
         </nav>
     </header>
     <section>
-        <h1>Encuentrá el paquete de tus sueños</h1>
+        <h2>Encuentrá el paquete de tus sueños</h2>
         <section class="sliders-paises"> <!-- En está sección me gustaría hacer una especie de mosaico con las imagens, ponerle el nombre de dónde es cada imagen en medio de cada imagen y que al darle click encima te lleve a la página de ese país-->
             <div class="slider-frame">
                 <ul>
@@ -174,18 +174,21 @@
                 </div>
             </div>
         </section>
+    </ma>
+    <section id="contacto">
+        <h1>Contacto</h1>
+        <form action="enviar.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <input type="submit" value="Enviar">
+        </form>
     </section>
-        <footer id="contacto">
-            <h2>Contacto</h2>
-            <form action="enviar.php" method="post">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" required></textarea>
-                <input type="submit" value="Enviar">
-            </form>
-        </footer>>
+    <footer>
+        <p>Derechos reservados &copy; Agencia de viajes en Argentina</p>
+    </footer>
 </body>
 </html>
