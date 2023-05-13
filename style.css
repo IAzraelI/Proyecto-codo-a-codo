@@ -21,6 +21,8 @@ h1 {
     margin: 0;
 }
 
+
+
 main {
     padding: 20px;
 }
@@ -41,8 +43,4 @@ ul {
 
 form label {
     display: block;
-}
-
-.mosaicos_de_imagenes {
-    display: grid;
 }
