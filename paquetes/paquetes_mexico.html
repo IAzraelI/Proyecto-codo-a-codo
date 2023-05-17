@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="shortcut icon" href="iconos/botones.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" href="../paquetes.css">
+    <link rel="shortcut icon" href="../iconos/botones.png" type="image/x-icon">
     <title>Agencia de viajes en Argentina</title>
 </head>
 <body>
@@ -13,10 +14,10 @@
         <h1>Agencia de viajes en Argentina</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="destinos.html">Destinos</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../destinos.html">Destinos</a></li>
                 <li>
-                    <a href="paquetes.html">Paquetes</a>
+                    <a href="../paquetes.html">Paquetes</a>
                     <ul>
                         <li>
                             <a href="paquetes_argentina.html">Argentina</a>
@@ -42,20 +43,20 @@
             </ul>
         </nav>
     </header>
-    <div>
-        <div>
-            <img src="imagenes_para_mosaicos/tokyo.jpg">
+    <div class="paquete">
+        <div class="imagenes_paquetes">
+            <img src="../imagenes_para_mosaicos/cancun.jpg">
         </div>
-        <div>
+        <div class="paquetes_contenido">
             <a href=""></a>
             <p>VUELO + HOTEL</p>
             <p>5 días/4 noches</p>
             <p>desde $136.000</p>
-            <a href="">Reservar</a>
+            <button class="boton_paquetes">Reservar</button>
         </div>
     </div>
     <footer id="contacto">
-        <h2>Contacto</h2>
+        <h1>Contacto</h1>
         <form action="enviar.php" method="post">
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" required>

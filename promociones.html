@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agencia de viajes en Argentina</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-
+    <link rel="stylesheet" type="text/css" href="barra-de-navegación.css">
     <link rel="stylesheet" href="./assets/css/promociones/promocion.css">
     <link rel="stylesheet" href="./assets/css/promociones/promociones.css">
     <link rel="stylesheet" href="./assets/css/promociones/promocion-titulo.css">
@@ -20,10 +20,32 @@
     <header>
         <h1>Agencia de viajes en Argentina</h1>
         <nav>
-            <ul>
+            <ul class="menu-horizontal">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="destinos.html">Destinos</a></li>
-                <li><a href="paquetes.html">Paquetes</a></li>
+                <li>
+                    <a href="paquetes.html">Paquetes</a>
+                    <ul class="menu-vertical"> <!--Acá con css haría que está lista se esconda y solo se muestre cuando el mouse este por encima de "paquetes."-->
+                        <li>
+                            <a href="paquetes/paquetes_argentina.html">Argentina</a>
+                        </li>
+                        <li>
+                            <a href="paquetes/paquetes_brasil.html">Brasil</a>
+                        </li>
+                        <li>
+                            <a href="paquetes/paquetes_chile.html">Chile</a>
+                        </li>
+                        <li>
+                            <a href="paquetes/paquetes_mexico.html">México</a>
+                        </li>
+                        <li>
+                            <a href="paquetes/paquetes_japón.html">Japón</a>
+                        </li>
+                        <li>
+                            <a href="paquetes/paquetes_españa.html">España</a>
+                        </li>
+                    </ul>
+                </li>
                 <li><a href="promociones.html">Promociones</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>

@@ -21,25 +21,7 @@ h1 {
     margin: 0;
 }
 
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
 
-nav li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-nav a {
-    color: #fff;
-    text-decoration: none;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
 
 main {
     padding: 20px;
@@ -61,8 +43,4 @@ ul {
 
 form label {
     display: block;
-}
-
-.mosaicos_de_imagenes {
-    display: grid;
 }

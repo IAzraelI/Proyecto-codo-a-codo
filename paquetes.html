@@ -5,165 +5,193 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="barra-de-navegación.css">
+    <link rel="stylesheet" type="text/css" href="paquetes/paquetes.css">
+    <link rel="stylesheet" type="text/css" href="paquetes/slider.css">
     <link rel="shortcut icon" href="iconos/botones.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/56448a38ec.js" crossorigin="anonymous"></script>
     <title>Agencia de viajes en Argentina</title>
 </head>
 <body>
-    <header>
-        <h1>Agencia de viajes en Argentina</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="destinos.html">Destinos</a></li>
-                <li>
-                    <a href="paquetes.html">Paquetes</a>
-                    <ul> <!--Acá con css haría que está lista se esconda y solo se muestre cuando el mouse este por encima de "paquetes."-->
+    <div class="contenedor">
+        <header class="cabecera">
+            <h1>Agencia de viajes en Argentina</h1>
+            <nav>
+                <ul class="menu-horizontal">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="destinos.html">Destinos</a></li>
+                    <li>
+                        <a href="paquetes.html">Paquetes</a>
+                        <ul class="menu-vertical"> <!--Acá con css haría que está lista se esconda y solo se muestre cuando el mouse este por encima de "paquetes."-->
+                            <li>
+                                <a href="paquetes/paquetes_argentina.html">Argentina</a>
+                            </li>
+                            <li>
+                                <a href="paquetes/paquetes_brasil.html">Brasil</a>
+                            </li>
+                            <li>
+                                <a href="paquetes/paquetes_chile.html">Chile</a>
+                            </li>
+                            <li>
+                                <a href="paquetes/paquetes_mexico.html">México</a>
+                            </li>
+                            <li>
+                                <a href="paquetes/paquetes_japón.html">Japón</a>
+                            </li>
+                            <li>
+                                <a href="paquetes/paquetes_españa.html">España</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="promociones.html">Promociones</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="slider">
+            <h2>Encuentrá el paquete de tus sueños</h2>
+            <section class="sliders-paises"> <!-- En está sección me gustaría hacer una especie de mosaico con las imagens, ponerle el nombre de dónde es cada imagen en medio de cada imagen y que al darle click encima te lleve a la página de ese país-->
+                <div class="slider-frame">
+                    <ul>
                         <li>
-                            <a href="paquetes_argentina.html">Argentina</a>
+                            <figure>
+                                <a href="">
+                                    <img src="imagenes/barcelona.jpg">
+                                    <figcaption>España</figcaption>
+                                </a>
+                            </figure>
                         </li>
                         <li>
-                            <a href="paquetes_brasil.html">Brasil</a>
+                            <figure>
+                                <a href="">
+                                    <img src="imagenes/tokyo.jpg">
+                                    <figcaption>Japón</figcaption>
+                                </a>
+                            </figure>
                         </li>
                         <li>
-                            <a href="paquetes_chile.html">Chile</a>
+                            <figure>
+                                <a href="">
+                                    <img src="imagenes/cancun.jpg">
+                                    <figcaption>México</figcaption>
+                                </a>
+                            </figure>
                         </li>
                         <li>
-                            <a href="paquetes_mexico.html">México</a>
+                            <figure>
+                                <a href="">
+                                    <img src="imagenes/mendoza.jpg">
+                                    <figcaption>Argentina</figcaption>
+                                    </a>
+                            </figure>
                         </li>
                         <li>
-                            <a href="paquetes_japón.html">Japón</a>
+                            <figure>
+                                <a href="">
+                                    <img src="imagenes/rio_de_janeiro.jpg">
+                                    <figcaption>Brasil</figcaption>
+                                </a>
+                            </figure>
                         </li>
                         <li>
-                            <a href="paquetes_españa.html">España</a>
+                            <figure>
+                                <a href="">
+                                    <img src="imagenes/santiago-de-chile.jpg">
+                                    <figcaption>Chile</figcaption>
+                                </a>
+                            </figure>
                         </li>
                     </ul>
-                </li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section>
-        <h1>Encuentrá el paquete de tus sueños</h1>
-    </section>
-    <section id="menu-de-categorias">
-        <ul>
-            <il>
-                <a href="paquetes_argentina.html" class="categorias"><img src="iconos_para_categorias/argentina.png" width="65" alt="Argentina">Argentina</a>
-            </il>
-            <il>
-                <a href="paquetes_brasil.html" class="categorias"><img src="iconos_para_categorias/bandera-de-brasil.png" width="65" alt="Brasil">Brasil</a>
-            </il>
-            <il>
-                <a href="paquetes_chile.html" class="categorias"><img src="iconos_para_categorias/chile.png" width="65" alt="Chile">Chile</a>
-            </il>
-            <il>
-                <a href="paquetes_mexico.html" class="categorias"><img src="iconos_para_categorias/mexico.png" width="65" alt="México">México</a>
-            </il>
-            <il>
-                <a href="paquetes_japón.html" class="categorias"><img src="iconos_para_categorias/japon.png" width="65" alt="Japón">Japón</a>
-            </il>
-            <il>
-                <a href="paquetes_españa.html" class="categorias"><img src="iconos_para_categorias/espana.png" width="65" alt="España">España</a>
-            </il>
-        </ul>
-    </section>
-    <section id="mosaicos-de-imagenes"> <!-- En está sección me gustaría hacer una especie de mosaico con las imagens, ponerle el nombre de dónde es cada imagen en medio de cada imagen y que al darle click encima te lleve a la página de ese país-->
-        <div><a href="paquetes_argentina.html"><img src="imagenes_para_mosaicos/mendoza.jpg" alt="Mendoza"></a></div>
-        <div><a href="paquetes_mexico.html"><img src="imagenes_para_mosaicos/cancun.jpg" alt="Cancun"></a></div>
-        <div><a href="paquetes_japón.html"><img src="imagenes_para_mosaicos/tokyo.jpg" alt="Tokyo"></a></div>
-        <div><a href="paquetes_chile.html"><img src="imagenes_para_mosaicos/santiago-de-chile.jpg" alt="santiago-de-chile"></a></div>
-        <div><a href="paquetes_brasil.html"><img src="imagenes_para_mosaicos/rio_de_janeiro.jpg" alt="rio_de_janeiro"></a></div>
-        <div><a href="paquetes_españa.html"><img src="imagenes_para_mosaicos/barcelona.jpg" alt="Barcelona"></a></div>
-    </sectionid>
-    <section> <!--Con cada uno de estos div me gustaría ir haciendo como cajas que se vean una al lado del otro con la imagen arriba y la breve descripción con un link que te lleve a la página donde se encuentra ese paquete.-->
-        <header id="mejores_ofertas">Mejores ofertas</header>
-        <h3>Destinos más buscados</h3>
-        <div class="más_buscados">
-            <div>
-                <div>
-                    <img src="imagenes_para_mosaicos/barcelona.jpg">
                 </div>
-                <div>
-                    <a href=""></a>
-                    <p>VUELO + HOTEL</p>
-                    <p>5 días/4 noches</p>
-                    <p>desde $136.000</p>
-                    <a href="">Reservar</a>
+            </section>
+        </section>
+            <section class="paquetes"> <!--Con cada uno de estos div me gustaría ir haciendo como cajas que se vean una al lado del otro con la imagen arriba y la breve descripción con un link que te lleve a la página donde se encuentra ese paquete.-->
+                <h2>Destinos más buscados</h2>
+                <div class="más_buscados">
+                    <div class="paquete">
+                        <div>
+                            <img class="imagenes_paquetes" src="imagenes/barcelona.jpg">
+                        </div>
+                        <div class="paquete_contenido">
+                            <p>VUELO + HOTEL</p>
+                            <p>5 días/4 noches</p>
+                            <p>desde $136.000</p>
+                            <button class="boton_paquetes">Reservar</button>
+                        </div>
+                    </div>  
+                    <div class="paquete">
+                        <div>
+                            <img class="imagenes_paquetes" src="imagenes/cancun.jpg">
+                        </div>
+                        <div class="paquete_contenido">
+                            <p>VUELO + HOTEL</p>
+                            <p>5 días/4 noches</p>
+                            <p>desde $136.000</p>
+                            <button class="boton_paquetes">Reservar</button>
+                        </div>
+                    </div>
+                    <div class="paquete">
+                        <div>
+                            <img class="imagenes_paquetes" src="imagenes/mendoza.jpg">
+                        </div>
+                        <div class="paquete_contenido">
+                            <p>VUELO + HOTEL</p>
+                            <p>5 días/4 noches</p>
+                            <p>desde $136.000</p>
+                            <button class="boton_paquetes">Reservar</button>
+                        </div>
+                    </div>
+                    <div class="paquete">
+                        <div>
+                            <img class="imagenes_paquetes" src="imagenes/rio_de_janeiro.jpg">
+                        </div>
+                        <div class="paquete_contenido">
+                            <p>VUELO + HOTEL</p>
+                            <p>5 días/4 noches</p>
+                            <p>desde $136.000</p>
+                            <button class="boton_paquetes">Reservar</button>
+                        </div>
+                    </div>
+                    <div class="paquete">
+                        <div>
+                            <img class="imagenes_paquetes" src="imagenes/santiago-de-chile.jpg">
+                        </div>
+                        <div class="paquete_contenido">
+                            <p>VUELO + HOTEL</p>
+                            <p>5 días/4 noches</p>
+                            <p>desde $136.000</p>
+                            <button class="boton_paquetes">Reservar</button>
+                        </div>
+                    </div>
+                    <div class="paquete">
+                        <div>
+                            <img class="imagenes_paquetes" src="imagenes/tokyo.jpg">
+                        </div>
+                        <div class="paquete_contenido">
+                            <p>VUELO + HOTEL</p>
+                            <p>5 días/4 noches</p>
+                            <p>desde $136.000</p>
+                            <button class="boton_paquetes">Reservar</button>
+                        </div>
+                    </div>
                 </div>
-            </div>  
-            <div>
-                <div>
-                    <img src="imagenes_para_mosaicos/cancun.jpg">
-                </div>
-                <div>
-                    <a href=""></a>
-                    <p>VUELO + HOTEL</p>
-                    <p>5 días/4 noches</p>
-                    <p>desde $136.000</p>
-                    <a href="">Reservar</a>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <img src="imagenes_para_mosaicos/mendoza.jpg">
-                </div>
-                <div>
-                    <a href=""></a>
-                    <p>VUELO + HOTEL</p>
-                    <p>5 días/4 noches</p>
-                    <p>desde $136.000</p>
-                    <a href="">Reservar</a>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <img src="imagenes_para_mosaicos/rio_de_janeiro.jpg">
-                </div>
-                <div>
-                    <a href=""></a>
-                    <p>VUELO + HOTEL</p>
-                    <p>5 días/4 noches</p>
-                    <p>desde $136.000</p>
-                    <a href="">Reservar</a>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <img src="imagenes_para_mosaicos/santiago-de-chile.jpg">
-                </div>
-                <div>
-                    <a href=""></a>
-                    <p>VUELO + HOTEL</p>
-                    <p>5 días/4 noches</p>
-                    <p>desde $136.000</p>
-                    <a href="">Reservar</a>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <img src="imagenes_para_mosaicos/tokyo.jpg">
-                </div>
-                <div>
-                    <a href=""></a>
-                    <p>VUELO + HOTEL</p>
-                    <p>5 días/4 noches</p>
-                    <p>desde $136.000</p>
-                    <a href="">Reservar</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <footer id="contacto">
-        <h2>Contacto</h2>
-        <form action="enviar.php" method="post">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" required></textarea>
-            <input type="submit" value="Enviar">
-        </form>
-    <footer>
+            </section>
+        </ma>
+        <section class="contacto" id="contacto">
+            <h1>Contacto</h1>
+            <form action="enviar.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+        <footer class="pie">
+            <p>Derechos reservados &copy; Agencia de viajes en Argentina</p>
+        </footer>
+    </div>
 </body>
 </html>

@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="shortcut icon" href="iconos/botones.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" type="text/css" href="../barra-de-navegación.css">
+    <link rel="stylesheet" type="text/css" href="paquetes.css">
+    <link rel="shortcut icon" href="../iconos/botones.png" type="image/x-icon">
     <title>Agencia de viajes en Argentina</title>
 </head>
 <body>
     <header>
         <h1>Agencia de viajes en Argentina</h1>
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="destinos.html">Destinos</a></li>
+            <ul class="menu-horizontal">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../destinos.html">Destinos</a></li>
                 <li>
-                    <a href="paquetes.html">Paquetes</a>
-                    <ul>
+                    <a href="../paquetes.html">Paquetes</a>
+                    <ul class="menu-vertical">
                         <li>
                             <a href="paquetes_argentina.html">Argentina</a>
                         </li>
@@ -38,21 +40,23 @@
                         </li>
                     </ul>
                 </li>
+                <li><a href="../promociones.html">Promociones</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
     <div>
-        <div>
-            <img src="imagenes_para_mosaicos/cancun.jpg">
-        </div>
-        <div>
-            <a href=""></a>
-            <p>VUELO + HOTEL</p>
-            <p>5 días/4 noches</p>
-            <p>desde $136.000</p>
-            <a href="">Reservar</a>
-        </div>
+        <div class="paquete">
+            <div>
+                <img class="imagenes_paquetes" src="../imagenes_para_mosaicos/mendoza.jpg">
+            </div>
+            <div class="paquete_contenido">
+                <p>VUELO + HOTEL</p>
+                <p>5 días/4 noches</p>
+                <p>desde $136.000</p>
+                <button class="boton_paquetes">Reservar</button>
+            </div>
+        </div> 
     </div>
     <footer id="contacto">
         <h2>Contacto</h2>
